@@ -1,0 +1,46 @@
+# ROS and ROS2 build artifacts
+build/
+install/
+log/
+devel/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Compiled files
+*.o
+*.a
+*.so
+*.pyc
+
+# CMake artifacts
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# Catkin tools
+.develspace/
+.installspace/
+
+# Package build artifacts
+bin/
+lib/
+share/
+
+# Configuration files that may contain sensitive information
+config/*.yaml.bak
+*.log
+
+# Other common ROS2 files to ignore
+*.user
+*.useros
+*.pid
+*.lock
